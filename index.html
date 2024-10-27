@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="j.js" defer></script>
+</head>
+<body onload="initialize()">
+    <header>
+        <h1 style="text-align: center;">Photo Gallery</h1>
+    </header>
+    
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+    
+    <img class="preview" alt="SEVILLA" src="pp.JPG" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="PARIS" src="p.JPG" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="MALAGA" src="ppp.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="ALGECIRAS" src="a.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="LISBOA" src="l.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="BENALMADENA" src="ll.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+
+    <input type="text" onfocus="myFunction()" onblur="myFunction()">
+    <input type="text" onfocus="myFunction()" onblur="myFunction()">
+
+</body>
+</html>
